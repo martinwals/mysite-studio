@@ -1,0 +1,133 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #222;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #1DB954;
+}
+
+/* Sections */
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+/* Cards */
+.services, .training, .portfolio {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 250px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card h3 {
+  margin-bottom: 0.5rem;
+  color: #444;
+}
+
+/* Contact Form */
+.contact form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact input, .contact textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact button {
+  padding: 10px;
+  border: none;
+  background: #222;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.contact button:hover {
+  background: #1DB954;
+}
+
+/* WhatsApp Button */
+.whatsapp-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 25px;
+  background-color: #25D366;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 30px;
+  transition: background 0.3s ease;
+}
+
+.whatsapp-btn:hover {
+  background-color: #1ebe5d;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
